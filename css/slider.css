@@ -1,0 +1,130 @@
+/*****layout nav,article, feature****/
+
+
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, sans-serif;
+  color:white;
+  text-align: center;
+}
+  
+ 
+  #article_1, #article_2, #article_3, #article_4 {
+  background-color: #0b0c10;
+float: left;
+margin: 65px;
+
+  }
+  article {
+    background-color: #0B0C10;
+    clear: both;
+    overflow: auto;
+    width: 100%;} 
+    
+    
+  
+  
+
+
+
+/******* NAV ******/
+
+
+
+nav{
+  position: absolute;
+  padding: 10px;
+  margin: 10px;
+  background-color: #160813;
+  width: 100%;
+  top: 0px;
+  color: cornflowerblue;
+  
+  }
+  nav ul {
+  margin: 0px;
+  padding: 5px 0px 5px 30px;}
+  nav li {
+  display: inline;
+  padding: 40px;} 
+ 
+
+/* LINKS*/
+a:link {
+  color: rgb(59, 219, 19);
+  text-decoration: none;}
+  a:visited {
+  color: rgb(224, 145, 26);}
+  a:hover {
+  color: deeppink;
+  text-decoration: underline;}
+  a:active {
+  color: darkcyan;}
+
+
+
+
+
+
+
+
+
+
+/********** SLIDER **********/
+.slider {
+  margin: 0;}
+
+.slide-viewer {
+    position: relative; /* needed for IE7 */
+    overflow: hidden;
+    height: 430px;}
+
+.slide-group {
+    width: 100%;
+    height: 100%;
+    position: relative;}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;}
+
+.slide:first-child {
+    display: block;}
+
+
+/********** BUTTONS **********/
+.slide-buttons {
+  text-align: center;}
+
+.slide-btn {
+  border: none;
+  background: none;
+  color: #000;
+  font-size: 200%;
+  line-height: 0.5em;}
+
+.slide-btn.active, .slide-btn:hover {
+  color: #ed8e6c;
+  cursor: pointer;}
+
+/*Read more button configuration*/
+
+  #more {display: none;}
+
+  /*Read more Button*/
+
+  #pp{
+    background-color:  #57A708;
+  }
+
+  #myBtn{
+    background-color: #49166d;
+    height: 30px;
+    width: 250px;
+  }
+
+  /*feedback*/
+  h2{
+    color: #57A708;
+  }
